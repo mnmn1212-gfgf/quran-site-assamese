@@ -1150,7 +1150,7 @@ export default function QuranTranslationLandingPage() {
                 </a>
 
                 <a
-                  href="https://youtube.com/@san-ar-m5i?si=RpejWa62nYgs2LGQ"
+                  href="https://www.youtube.com/channel/UC2AJpQamYrpfWuveSY_ePLg"
                   target="_blank"
                   rel="noreferrer"
                   className="inline-flex items-center justify-center gap-3 rounded-2xl border border-white/15 bg-white/10 px-6 py-3.5 text-sm font-semibold text-white backdrop-blur-md transition hover:bg-white/15 sm:px-7 sm:py-4 sm:text-base"
@@ -1634,7 +1634,7 @@ export default function QuranTranslationLandingPage() {
 
                   <div className="mt-6 w-full rounded-[1.4rem] border border-white/10 bg-[rgba(34,8,13,0.34)] p-4">
                     <a
-                      href="https://www.facebook.com/share/1FVbmggbzc/"
+                      href="https://www.facebook.com/profile.php?id=61588155182246"
                       target="_blank"
                       rel="noreferrer"
                       className="flex items-center justify-center gap-2 rounded-xl border border-white/10 bg-white/5 py-3 text-sm font-semibold text-white transition hover:scale-[1.01] hover:bg-white/10"
@@ -1703,7 +1703,7 @@ export default function QuranTranslationLandingPage() {
                       </div>
 
                       <a
-                        href="https://www.youtube.com/@SAN-AR-m5i"
+                        href="https://www.youtube.com/channel/UC2AJpQamYrpfWuveSY_ePLg"
                         target="_blank"
                         rel="noreferrer"
                         className="mt-4 flex w-full items-center justify-center gap-2 rounded-xl border border-[rgba(246,211,138,0.28)] bg-[rgba(246,211,138,0.12)] py-3 text-sm font-bold text-[#FFF1CC] transition hover:scale-[1.01] hover:bg-[rgba(246,211,138,0.18)]"
