@@ -1109,7 +1109,7 @@ export default function QuranTranslationLandingPage() {
                 initial="hidden"
                 animate="show"
                 variants={fadeUp}
-                className="max-w-[11ch] text-[2.35rem] font-black leading-[1.08] tracking-[-0.03em] sm:max-w-none sm:text-5xl lg:text-[5.1rem]"
+                className="max-w-[11ch] text-[2rem] font-black leading-[1.12] tracking-[-0.02em] sm:max-w-none sm:text-[3.6rem] lg:text-[4.4rem]"
               >
                 <span className="block bg-gradient-to-l from-[#FFF4D6] via-[#F6D38A] to-[#B52A3A] bg-clip-text text-transparent [text-wrap:balance]">
                   সানা কোৰআনী<br className="sm:hidden" /> চেনেলসমূহ
