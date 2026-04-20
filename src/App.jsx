@@ -1109,10 +1109,10 @@ export default function QuranTranslationLandingPage() {
                 initial="hidden"
                 animate="show"
                 variants={fadeUp}
-                className="text-3xl font-black leading-[1.25] sm:text-5xl lg:text-7xl"
+                className="max-w-[11ch] text-[2.35rem] font-black leading-[1.08] tracking-[-0.03em] sm:max-w-none sm:text-5xl lg:text-[5.1rem]"
               >
-                <span className="block bg-gradient-to-l from-[#FFF4D6] via-[#F6D38A] to-[#B52A3A] bg-clip-text text-transparent">
-                  সানা কোৰআনী চেনেলসমূহ
+                <span className="block bg-gradient-to-l from-[#FFF4D6] via-[#F6D38A] to-[#B52A3A] bg-clip-text text-transparent [text-wrap:balance]">
+                  সানা কোৰআনী<br className="sm:hidden" /> চেনেলসমূহ
                 </span>
               </motion.h1>
 
