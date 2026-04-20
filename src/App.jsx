@@ -559,7 +559,7 @@ function HeroAudioPlayer({ isMobile }) {
         onContextMenu={(e) => e.preventDefault()}
       />
 
-      <div className="mb-4 flex h-14 items-end gap-[2px] overflow-visible rounded-2xl border border-white/10 bg-black/10 px-2 py-3 sm:h-18">
+      <div className="mb-4 flex h-14 items-end gap-[2px] overflow-hidden rounded-2xl border border-white/10 bg-black/10 px-2 py-3 sm:h-18">
         {bars.map((height, index) => (
           <motion.div
             key={index}
@@ -873,7 +873,7 @@ function ProtectedHlsVideoCard({
       whileHover={isMobile ? {} : { y: -6, scale: 1.01 }}
       className={`${softCard} p-3 sm:p-4`}
     >
-      <div className="relative overflow-visible rounded-[1.4rem] border border-white/10 bg-black/30">
+      <div className="relative overflow-hidden rounded-[1.4rem] border border-white/10 bg-black/30">
         <video
           ref={videoRef}
           src={video}
@@ -1012,7 +1012,7 @@ export default function QuranTranslationLandingPage() {
     <LazyMotion features={domAnimation}>
       <div
         dir="ltr"
-        className="relative min-h-screen overflow-visible bg-[#2A0810] text-white"
+        className="relative min-h-screen overflow-hidden bg-[#2A0810] text-white"
       >
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_top,rgba(246,211,138,0.18),transparent_30%),radial-gradient(circle_at_80%_20%,rgba(181,42,58,0.18),transparent_24%),radial-gradient(circle_at_20%_80%,rgba(122,18,32,0.18),transparent_24%),linear-gradient(180deg,#22060D_0%,#3A0B13_42%,#120307_100%)]" />
 
@@ -1037,7 +1037,7 @@ export default function QuranTranslationLandingPage() {
               className={`mx-auto flex items-center justify-between gap-3 rounded-[1.5rem] px-3 py-3 sm:rounded-[2rem] sm:px-4 ${glass}`}
             >
               <div className="flex min-w-0 items-center gap-3 sm:gap-4">
-                <div className="flex h-12 w-12 shrink-0 items-center justify-center overflow-visible rounded-full border border-[rgba(246,211,138,0.24)] bg-white/10 shadow-[0_0_20px_rgba(181,42,58,0.24)] sm:h-16 sm:w-16">
+                <div className="flex h-12 w-12 shrink-0 items-center justify-center overflow-hidden rounded-full border border-[rgba(246,211,138,0.24)] bg-white/10 shadow-[0_0_20px_rgba(181,42,58,0.24)] sm:h-16 sm:w-16">
                   <img
                     src={sanaLogo}
                     alt="সানা কোৰআনী চেনেলসমূহৰ ল’গ’"
@@ -1109,10 +1109,10 @@ export default function QuranTranslationLandingPage() {
                 initial="hidden"
                 animate="show"
                 variants={fadeUp}
-                className="absolute left-1/2 -translate-x-1/2 top-0 z-[999] text-[1.8rem] sm:text-[3rem] lg:text-[3.8rem] font-black leading-[1.2] tracking-[-0.01em] pointer-events-none"
+                className="text-[1.6rem] font-black leading-[1.2] tracking-[-0.01em] sm:text-[2.8rem] lg:text-[3.6rem]"
               >
-                <span className="block bg-gradient-to-l from-[#FFF4D6] via-[#F6D38A] to-[#B52A3A] bg-clip-text text-transparent whitespace-nowrap px-4">
-                  سানা কোৰআনী চেনেলসমূহ
+                <span className="block bg-gradient-to-l from-[#FFF4D6] via-[#F6D38A] to-[#B52A3A] bg-clip-text text-transparent whitespace-nowrap">
+                  সানা কোৰআনী চেনেলসমূহ
                 </span>
               </motion.h1>
 
@@ -1329,7 +1329,7 @@ export default function QuranTranslationLandingPage() {
               whileInView="show"
               viewport={{ once: true, amount: 0.2 }}
               variants={fadeUp}
-              className={`relative overflow-visible p-5 sm:p-6 md:p-10 ${gradientOuterCard}`}
+              className={`relative overflow-hidden p-5 sm:p-6 md:p-10 ${gradientOuterCard}`}
             >
               {!isMobile && (
                 <div className="absolute inset-0 bg-[radial-gradient(circle_at_20%_20%,rgba(16,185,129,0.12),transparent_28%),radial-gradient(circle_at_80%_80%,rgba(250,204,21,0.10),transparent_32%)]" />
