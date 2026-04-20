@@ -575,7 +575,7 @@ function HeroAudioPlayer({ isMobile }) {
         <button
           type="button"
           onClick={togglePlay}
-          className="flex h-10 w-10 items-center justify-center rounded-2xl border border-white/10 bg-white/5 text-white transition hover:bg-white/10"
+          className="flex h-10 w-10 items-center justify-center rounded-2xl border border-white/10 bg-white/5 text-white transition hover:bg-[rgba(20,4,8,0.8)]"
           aria-label={isPlaying ? "স্থগিত কৰক" : "চালু কৰক"}
         >
           {isPlaying ? (
@@ -588,7 +588,7 @@ function HeroAudioPlayer({ isMobile }) {
         <button
           type="button"
           onClick={() => seekBy(-10)}
-          className="flex h-10 w-10 items-center justify-center rounded-2xl border border-white/10 bg-white/5 text-white transition hover:bg-white/10"
+          className="flex h-10 w-10 items-center justify-center rounded-2xl border border-white/10 bg-white/5 text-white transition hover:bg-[rgba(20,4,8,0.8)]"
           aria-label="পিছলৈ নিন"
         >
           <SkipBack className="h-4 w-4" style={{ color: ACCENT }} />
@@ -597,7 +597,7 @@ function HeroAudioPlayer({ isMobile }) {
         <button
           type="button"
           onClick={replay}
-          className="flex h-10 w-10 items-center justify-center rounded-2xl border border-white/10 bg-white/5 text-white transition hover:bg-white/10"
+          className="flex h-10 w-10 items-center justify-center rounded-2xl border border-white/10 bg-white/5 text-white transition hover:bg-[rgba(20,4,8,0.8)]"
           aria-label="পুনৰ চালু কৰক"
         >
           <RotateCcw className="h-4 w-4" style={{ color: ACCENT }} />
@@ -606,7 +606,7 @@ function HeroAudioPlayer({ isMobile }) {
         <button
           type="button"
           onClick={() => seekBy(10)}
-          className="flex h-10 w-10 items-center justify-center rounded-2xl border border-white/10 bg-white/5 text-white transition hover:bg-white/10"
+          className="flex h-10 w-10 items-center justify-center rounded-2xl border border-white/10 bg-white/5 text-white transition hover:bg-[rgba(20,4,8,0.8)]"
           aria-label="আগলৈ নিন"
         >
           <SkipForward className="h-4 w-4" style={{ color: ACCENT }} />
@@ -615,7 +615,7 @@ function HeroAudioPlayer({ isMobile }) {
         <button
           type="button"
           onClick={toggleMute}
-          className="flex h-10 w-10 items-center justify-center rounded-2xl border border-white/10 bg-white/5 text-white transition hover:bg-white/10"
+          className="flex h-10 w-10 items-center justify-center rounded-2xl border border-white/10 bg-white/5 text-white transition hover:bg-[rgba(20,4,8,0.8)]"
           aria-label="শব্দ"
         >
           <Volume2
@@ -707,7 +707,7 @@ function IdentityCard({ icon: Icon, title, text, large = false, isMobile }) {
             <Icon className="h-5 w-5" style={{ color: ACCENT }} />
           </div>
           <div
-            className={`rounded-2xl border border-white/10 bg-white/5 px-4 py-2 font-bold text-white ${
+            className={`rounded-2xl border border-white/10 bg-[rgba(20,4,8,0.6)] px-4 py-2 font-bold text-white ${
               large ? "text-lg sm:text-xl" : "text-base sm:text-lg"
             }`}
           >
@@ -908,7 +908,7 @@ function ProtectedHlsVideoCard({
           <button
             type="button"
             onClick={toggleMute}
-            className="flex h-10 w-10 items-center justify-center rounded-2xl border border-white/10 bg-white/5 text-white transition hover:bg-white/10"
+            className="flex h-10 w-10 items-center justify-center rounded-2xl border border-white/10 bg-white/5 text-white transition hover:bg-[rgba(20,4,8,0.8)]"
             aria-label="শব্দ বন্ধ বা চালু কৰক"
           >
             <Volume2
@@ -920,7 +920,7 @@ function ProtectedHlsVideoCard({
           <button
             type="button"
             onClick={replayVideo}
-            className="flex h-10 w-10 items-center justify-center rounded-2xl border border-white/10 bg-white/5 text-white transition hover:bg-white/10"
+            className="flex h-10 w-10 items-center justify-center rounded-2xl border border-white/10 bg-white/5 text-white transition hover:bg-[rgba(20,4,8,0.8)]"
             aria-label="পুনৰ চালু কৰক"
           >
             <RotateCcw className="h-4 w-4" style={{ color: ACCENT }} />
@@ -929,7 +929,7 @@ function ProtectedHlsVideoCard({
           <button
             type="button"
             onClick={togglePlay}
-            className="flex h-10 w-10 items-center justify-center rounded-2xl border border-white/10 bg-white/5 text-white transition hover:bg-white/10"
+            className="flex h-10 w-10 items-center justify-center rounded-2xl border border-white/10 bg-white/5 text-white transition hover:bg-[rgba(20,4,8,0.8)]"
             aria-label={isPlaying ? "স্থগিত কৰক" : "চালু কৰক"}
           >
             {isPlaying ? (
@@ -1056,7 +1056,7 @@ export default function QuranTranslationLandingPage() {
                   <a
                     key={item.href}
                     href={item.href}
-                    className="rounded-full border border-white/10 bg-white/5 px-4 py-2 text-sm font-medium text-white/85 transition hover:border-[rgba(246,211,138,0.38)] hover:bg-white/10 hover:text-[#FFF1CC]"
+                    className="rounded-full border border-white/10 bg-[rgba(20,4,8,0.6)] px-4 py-2 text-sm font-medium text-white/85 transition hover:border-[rgba(246,211,138,0.38)] hover:bg-[rgba(20,4,8,0.8)] hover:text-[#FFF1CC]"
                   >
                     {item.label}
                   </a>
@@ -1080,7 +1080,7 @@ export default function QuranTranslationLandingPage() {
                       key={item.href}
                       href={item.href}
                       onClick={() => setMenuOpen(false)}
-                      className="rounded-2xl border border-white/10 bg-white/5 px-4 py-3 text-sm text-white/85 sm:text-base"
+                      className="rounded-2xl border border-white/10 bg-[rgba(20,4,8,0.6)] px-4 py-3 text-sm text-white/85 sm:text-base"
                     >
                       {item.label}
                     </a>
@@ -1561,7 +1561,7 @@ export default function QuranTranslationLandingPage() {
                   <div className="rounded-[1.5rem] border border-white/10 bg-white/5 p-4 sm:p-5">
                     <div className="mb-4 text-xl font-bold sm:text-2xl">আমাক যোগাযোগ কৰক</div>
                     <div className="space-y-3 text-white/75">
-                      <div className="rounded-2xl bg-white/5 px-4 py-3 text-sm sm:text-base">
+                      <div className="rounded-2xl bg-[rgba(20,4,8,0.6)] px-4 py-3 text-sm sm:text-base">
                         আমাৰ টীমে আপোনালোকক সহায় কৰিবলৈ আৰু অতি সোনকালে উত্তৰ দিবলৈ আনন্দ পাব।
                       </div>
                       <a
@@ -1620,7 +1620,7 @@ export default function QuranTranslationLandingPage() {
                   <div className="w-full space-y-4 text-white/72">
                     <a
                       href="mailto:snachannel159@gmail.com"
-                      className="flex items-center justify-center gap-3 break-all rounded-2xl border border-white/10 bg-[rgba(34,8,13,0.34)] px-4 py-3 text-sm transition hover:bg-white/10 sm:text-base"
+                      className="flex items-center justify-center gap-3 break-all rounded-2xl border border-white/10 bg-[rgba(34,8,13,0.34)] px-4 py-3 text-sm transition hover:bg-[rgba(20,4,8,0.8)] sm:text-base"
                     >
                       <Mail className="h-4 w-4 shrink-0" style={{ color: ACCENT }} />
                       snachannel159@gmail.com
@@ -1637,7 +1637,7 @@ export default function QuranTranslationLandingPage() {
                       href="https://www.facebook.com/profile.php?id=61588155182246"
                       target="_blank"
                       rel="noreferrer"
-                      className="flex items-center justify-center gap-2 rounded-xl border border-white/10 bg-white/5 py-3 text-sm font-semibold text-white transition hover:scale-[1.01] hover:bg-white/10"
+                      className="flex items-center justify-center gap-2 rounded-xl border border-white/10 bg-white/5 py-3 text-sm font-semibold text-white transition hover:scale-[1.01] hover:bg-[rgba(20,4,8,0.8)]"
                     >
                       <Globe className="h-4 w-4" style={{ color: ACCENT }} />
                       ফেচবুকত আমাক অনুসৰণ কৰক
@@ -1667,7 +1667,7 @@ export default function QuranTranslationLandingPage() {
                         href="https://play.google.com/store/apps/details?id=com.sana_all&pcampaignid=web_share"
                         target="_blank"
                         rel="noreferrer"
-                        className="group rounded-[1.3rem] border border-white/10 bg-white/5 p-4 transition hover:-translate-y-0.5 hover:bg-white/10"
+                        className="group rounded-[1.3rem] border border-white/10 bg-white/5 p-4 transition hover:-translate-y-0.5 hover:bg-[rgba(20,4,8,0.8)]"
                       >
                         <div className="flex items-center justify-center gap-3">
                           <div className="flex h-12 w-12 items-center justify-center rounded-2xl border border-white/10 bg-[rgba(246,211,138,0.14)] text-white">
@@ -1683,7 +1683,7 @@ export default function QuranTranslationLandingPage() {
                         href="https://apps.apple.com/us/app/sana-tv-%D8%B3%D9%86%D8%A7/id6742054715"
                         target="_blank"
                         rel="noreferrer"
-                        className="group rounded-[1.3rem] border border-white/10 bg-white/5 p-4 transition hover:-translate-y-0.5 hover:bg-white/10"
+                        className="group rounded-[1.3rem] border border-white/10 bg-white/5 p-4 transition hover:-translate-y-0.5 hover:bg-[rgba(20,4,8,0.8)]"
                       >
                         <div className="flex items-center justify-center gap-3">
                           <div className="flex h-12 w-12 items-center justify-center rounded-2xl border border-white/10 bg-[rgba(246,211,138,0.14)] text-white">
