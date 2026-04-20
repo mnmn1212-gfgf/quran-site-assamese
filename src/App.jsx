@@ -565,7 +565,7 @@ function HeroAudioPlayer({ isMobile }) {
             key={index}
             animate={{ height }}
             transition={{ duration: isMobile ? 0.2 : 0.14, ease: "easeOut" }}
-            className="flex-1 self-end rounded-full bg-gradient-to-t from-emerald-300 via-yellow-100 to-emerald-200 opacity-95"
+            className="flex-1 self-end rounded-full bg-gradient-to-t from-[#5C0F18] via-[#B52A3A] to-[#F6D38A] opacity-95"
             style={{ maxHeight: `${MAX_BAR_HEIGHT}px` }}
           />
         ))}
