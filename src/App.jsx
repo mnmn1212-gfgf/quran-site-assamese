@@ -66,133 +66,133 @@ const softCard = `rounded-[2rem] ${glass}`;
 const gradientOuterCard = `rounded-[2rem] border border-white/10 ${OUTER_GRADIENT} md:backdrop-blur-xl backdrop-blur-sm shadow-[0_8px_22px_rgba(0,0,0,0.14)]`;
 
 const navItems = [
-  { label: "من نحن", href: "#about" },
-  { label: "المميزات", href: "#features" },
-  { label: "أعمالنا", href: "#portfolio" },
-  { label: "شركاء النجاح", href: "#partners" },
-  { label: "تواصل معنا", href: "#contact" },
+  { label: "আমাৰ বিষয়ে", href: "#about" },
+  { label: "বৈশিষ্ট্যসমূহ", href: "#features" },
+  { label: "আমাৰ কাম", href: "#portfolio" },
+  { label: "সফলতাৰ অংশীদাৰসকল", href: "#partners" },
+  { label: "আমাৰ সৈতে যোগাযোগ কৰক", href: "#contact" },
 ];
 
 const stats = [
-  { value: "+100", label: "لغة عالمية مستهدفة" },
-  { value: "24/7", label: "وصول عالمي مستمر" },
-  { value: "114", label: "سورة كاملة" },
-  { value: "HQ", label: "جودة صوت وصورة عالية" },
+  { value: "+100", label: "লক্ষ্যভুক্ত বিশ্বজনীন ভাষা" },
+  { value: "24/7", label: "অবিৰত বৈশ্বিক প্ৰৱেশ" },
+  { value: "114", label: "সম্পূৰ্ণ ছূৰা" },
+  { value: "HQ", label: "উচ্চ মানৰ শব্দ আৰু দৃশ্য" },
 ];
 
 const heroCards = [
-  { value: "114", label: "سورة كاملة" },
-  { value: "30", label: "جزءًا من القرآن" },
-  { value: "متقن", label: "عرض سمعي بصري" },
+  { value: "114", label: "সম্পূৰ্ণ ছূৰা" },
+  { value: "30", label: "কোৰআনৰ ৩০টা অংশ" },
+  { value: "নিপুণ", label: "শ্ৰব্য-দৃশ্যমান উপস্থাপনা" },
 ];
 
 const heroBadges = [
-  { icon: Sparkles, title: "نور وجمال القرآن" },
-  { icon: Globe, title: "رسالة إلى العالم" },
+  { icon: Sparkles, title: "কোৰআনৰ নূৰ আৰু সৌন্দৰ্য" },
+  { icon: Globe, title: "বিশ্বৰ বাবে এটি বাৰ্তা" },
 ];
 
 const identityCards = [
   {
     icon: Users,
-    title: "من نحن",
-    text: "سنا مشروع وقفي يهدف إلى نشر معاني القرآن الكريم إلى العالم، عبر قنوات صوتية ومرئية تجمع بين التلاوة العذبة والترجمة الدقيقة، لنقدم تجربة إيمانية متكاملة تُقرب كلام الله إلى القلوب بمختلف لغات العالم.",
+    title: "আমাৰ বিষয়ে",
+    text: "সানা হৈছে এটা ৱাক্‌ফভিত্তিক প্ৰকল্প, যাৰ লক্ষ্য হৈছে কোৰআনুল কৰীমৰ অৰ্থসমূহ বিশ্ববাসীৰ ওচৰলৈ পোৱা। মধুৰ তিলাৱাত আৰু নিখুঁত অনুবাদ একেলগে উপস্থাপন কৰা শ্ৰব্য আৰু দৃশ্যমান চেনেলসমূহৰ জৰিয়তে আমি এনে এক সম্পূৰ্ণ ঈমানী অভিজ্ঞতা দাঙি ধৰো, যিয়ে আল্লাহৰ বাণীক পৃথিৱীৰ বিভিন্ন ভাষাভাষী মানুহৰ হৃদয়ৰ ওচৰলৈ লৈ যায়।",
   },
   {
     icon: Eye,
-    title: "الرؤية",
-    text: "أن نكون منصة عالمية رائدة في إيصال معاني القرآن الكريم إلى كل إنسان بلغته، بأسلوب عصري يجمع بين الجمال والإتقان والتقنية الحديثة.",
+    title: "দৃষ্টিভংগী",
+    text: "প্ৰত্যেক মানুহৰ নিজ ভাষাত কোৰআনুল কৰীমৰ অৰ্থ পৌঁছাই দিব পৰাকৈ সৌন্দৰ্য, উৎকৃষ্টতা আৰু আধুনিক প্ৰযুক্তিৰ সমন্বয়েৰে এটা অগ্ৰণী বিশ্বজনীন মঞ্চ হৈ উঠা।",
   },
   {
     icon: Target,
-    title: "الرسالة",
-    text: "تقديم محتوى قرآني صوتي ومرئي مترجم، يتيح فهم معاني القرآن الكريم بوضوح وسهولة، ويساهم في نشر الهداية وتعريف العالم بكلام الله بأسلوب مؤثر وجذاب.",
+    title: "বাৰ্তা",
+    text: "অনুবাদসহ শ্ৰব্য আৰু দৃশ্যমান কোৰআনী বিষয়বস্তু উপস্থাপন কৰা, যাতে কোৰআনুল কৰীমৰ অৰ্থ স্পষ্ট আৰু সহজভাৱে বুজিব পাৰি, আৰু প্ৰভাৱশালী ও আকর্ষণীয় শৈলীৰে আল্লাহৰ বাণীৰ পৰিচয় বিশ্ববাসীক দিব পাৰি।",
   },
 ];
 
 const features = [
   {
     icon: Languages,
-    title: "ترجمات متعددة اللغات",
-    desc: "إيصال معاني القرآن الكريم إلى الشعوب بلغاتهم، بأسلوب واضح ودقيق يراعي المعنى والرسالة.",
+    title: "বহুভাষিক অনুবাদ",
+    desc: "স্পষ্ট, নিখুঁত আৰু অৰ্থ-সন্দেশক সন্মান কৰা শৈলীত বিভিন্ন জাতিৰ ওচৰলৈ কোৰআনুল কৰীমৰ অৰ্থ পৌঁছোৱা।",
   },
   {
     icon: Headphones,
-    title: "تجربة سمعية وبصرية متكاملة",
-    desc: "قنوات تجمع بين التلاوة المؤثرة والنص المترجم في تجربة هادئة تليق بجلال القرآن الكريم.",
+    title: "সম্পূৰ্ণ শ্ৰব্য-দৃশ্যমান অভিজ্ঞতা",
+    desc: "মনোমুগ্ধকৰ তিলাৱাত আৰু অনূদিত পাঠ একেলগে সন্নিবিষ্ট কৰা চেনেলসমূহে কোৰআনৰ মহিমাৰ উপযোগী শান্ত আৰু গভীৰ অভিজ্ঞতা প্ৰদান কৰে।",
   },
   {
     icon: Globe,
-    title: "انتشار عالمي مستمر",
-    desc: "حضور رقمي وفضائي يفتح أبواب الوصول إلى مختلف القارات والمنصات على مدار الساعة.",
+    title: "অবিৰত বৈশ্বিক বিস্তাৰ",
+    desc: "ডিজিটেল আৰু উপগ্ৰহভিত্তিক উপস্থিতিয়ে দিন-ৰাতিৰ সকলো সময়ত বিভিন্ন মহাদেশ আৰু মঞ্চলৈ প্ৰৱেশৰ দুৱাৰ মুকলি কৰে।",
   },
   {
     icon: HeartHandshake,
-    title: "وقف لله تعالى",
-    desc: "رسالة دعوية عالمية يشارك في أجرها كل من يساهم في نشرها أو دعمها أو ينتفع بها.",
+    title: "আল্লাহ তাআলাৰ বাবে এক ৱাক্‌ফ",
+    desc: "এয়া এটা বিশ্বজনীন দাৱাতী বাৰ্তা, যাৰ প্ৰচাৰ, সমৰ্থন বা উপকাৰ লাভ কৰা প্ৰতিজনে নেকীৰ অংশীদাৰ হ’ব পাৰে।",
   },
 ];
 
 const channels = [
   {
     icon: Radio,
-    title: "القنوات الفضائية والإذاعية",
-    desc: "نشر معاني القرآن الكريم عبر قنوات صوتية ومرئية تصل إلى مختلف الشعوب بلغاتها.",
+    title: "উপগ্ৰহ আৰু ৰেডিঅ’ চেনেলসমূহ",
+    desc: "বিভিন্ন জাতিৰ ওচৰলৈ তেওঁলোকৰ নিজ নিজ ভাষাত কোৰআনুল কৰীমৰ অৰ্থ শ্ৰব্য আৰু দৃশ্যমান চেনেলৰ জৰিয়তে পৌঁছোৱা।",
   },
   {
     icon: MonitorPlay,
-    title: "منصات التواصل الاجتماعي والمواقع الإلكترونية",
-    desc: "حضور رقمي متجدد يسهّل الوصول إلى المحتوى القرآني ونشره على نطاق واسع.",
+    title: "সামাজিক মাধ্যম আৰু ৱেবছাইটসমূহ",
+    desc: "নবীকৃত ডিজিটেল উপস্থিতিয়ে কোৰআনী বিষয়বস্তুত সহজে প্ৰৱেশ আৰু বিস্তৃত প্ৰচাৰ নিশ্চিত কৰে।",
   },
   {
     icon: Layers3,
-    title: "تطبيقات ووسائط رقمية متنوعة",
-    desc: "تجربة حديثة ومتنوعة تتيح متابعة المحتوى القرآني بأساليب تناسب مختلف الأجهزة والمنصات.",
+    title: "বিভিন্ন এপ্লিকেচন আৰু ডিজিটেল মাধ্যম",
+    desc: "আধুনিক আৰু বৈচিত্ৰ্যময় অভিজ্ঞতাই বিভিন্ন ডিভাইচ আৰু প্লেটফৰ্মত কোৰআনী বিষয়বস্তু অনুসৰণ কৰাটো সহজ আৰু সুবিধাজনক কৰি তোলে।",
   },
 ];
 
 const partners = [
   {
     icon: ShieldCheck,
-    title: "الهيئات الشرعية والمؤسسات الإسلامية",
-    desc: "التي ساهمت في تقديم ترجمات معتمدة لمعاني القرآن الكريم، بما يضمن الدقة والتأصيل الشرعي.",
+    title: "শৰঈ সংস্থা আৰু ইছলামী প্ৰতিষ্ঠানসমূহ",
+    desc: "যিসকলে কোৰআনুল কৰীমৰ অৰ্থৰ অনুমোদিত অনুবাদ প্ৰদান কৰি নিখুঁততা আৰু শৰঈ ভিত্তি নিশ্চিত কৰিছে।",
   },
   {
     icon: Mic2,
-    title: "القرّاء المؤثرون ذوو الأصوات الندية",
-    desc: "الذين أثروا المشروع بتلاوات خاشعة ومؤثرة، تصل إلى القلوب بأسلوب محبب وجذاب.",
+    title: "মধুৰ কণ্ঠৰ প্ৰভাৱশালী ক্বাৰীসকল",
+    desc: "যিসকলে বিনম্ৰ, হৃদয়স্পৰ্শী তিলাৱাতৰ জৰিয়তে প্ৰকল্পটোক সমৃদ্ধ কৰিছে, যি স্নেহময় আৰু আকর্ষণীয় ভঙ্গীত হৃদয়ত প্ৰৱেশ কৰে।",
   },
   {
     icon: Headphones,
-    title: "شركات الإنتاج الصوتي والتقني",
-    desc: "التي وفّرت تسجيلات عالية الجودة ومعالجة صوتية وبصرية احترافية.",
+    title: "শব্দ আৰু প্ৰযুক্তিগত উৎপাদন প্ৰতিষ্ঠানসমূহ",
+    desc: "যিসকলে উচ্চমানৰ ৰেকৰ্ডিং আৰু পেছাদাৰী শব্দ-দৃশ্য প্ৰসেসিং সুবিধা প্ৰদান কৰিছে।",
   },
   {
     icon: Users,
-    title: "المنتجون والمتطوعون",
-    desc: "الذين ساهموا في تطوير المحتوى ونشره، ليصل إلى أكبر شريحة ممكنة حول العالم.",
+    title: "প্ৰযোজক আৰু স্বেচ্ছাসেৱকসকল",
+    desc: "যিসকলে বিষয়বস্তু উন্নয়ন আৰু প্ৰচাৰত সহায় কৰিছে, যাতে ই বিশ্বজুৰি সম্ভৱপৰ বৃহৎ পৰিসৰলৈ পৌঁছিব পাৰে।",
   },
 ];
 
 const impactCards = [
   {
     icon: Globe,
-    title: "وصول عالمي",
-    desc: "وصلت رسالة القرآن الكريم إلى بيوت في مختلف دول العالم، بلغات متعددة تُخاطب الناس بلغتهم الأم.",
+    title: "বৈশ্বিক পৌঁছ",
+    desc: "কোৰআনৰ বাৰ্তা বিশ্বৰ বিভিন্ন দেশৰ ঘৰলৈ পৌঁছিছে, বহু ভাষাত মানুহৰ মাতৃভাষাত কথা কৈ।",
   },
   {
     icon: Languages,
-    title: "ترجمات موثوقة",
-    desc: "تم توفير ترجمات دقيقة لمعاني القرآن الكريم بإشراف جهات علمية موثوقة لضمان صحة المعنى.",
+    title: "বিশ্বাসযোগ্য অনুবাদ",
+    desc: "অৰ্থৰ শুদ্ধতা নিশ্চিত কৰিবলৈ বিশ্বাসযোগ্য বিদ্বৎ সংস্থাৰ তত্বাৱধানে কোৰআনুল কৰীমৰ অৰ্থৰ নিখুঁত অনুবাদ প্ৰদান কৰা হৈছে।",
   },
   {
     icon: Headphones,
-    title: "تجربة متكاملة",
-    desc: "محتوى يجمع بين التلاوة الخاشعة والترجمة المرئية ليمنح تجربة إيمانية مؤثرة وسهلة الفهم.",
+    title: "সম্পূৰ্ণ অভিজ্ঞতা",
+    desc: "এনে বিষয়বস্তু যিয়ে বিনম্ৰ তিলাৱাত আৰু দৃশ্যমান অনুবাদক একত্ৰ কৰে, যাতে প্ৰভাৱশালী আৰু সহজবোধ্য ঈমানী অভিজ্ঞতা লাভ কৰা যায়।",
   },
   {
     icon: Send,
-    title: "رسالة ممتدة",
-    desc: "يساهم المشروع في نشر الهداية وتعريف العالم بكلام الله بأسلوب عصري يصل إلى مختلف الفئات.",
+    title: "দীৰ্ঘায়িত বাৰ্তা",
+    desc: "এই প্ৰকল্পই পথপ্ৰদৰ্শনৰ প্ৰচাৰ আৰু আল্লাহৰ বাণীৰ পৰিচয় বিশ্ববাসীক আধুনিক শৈলীত বিভিন্ন স্তৰৰ ওচৰলৈ পৌঁছোৱাত সহায় কৰে।",
   },
 ];
 
@@ -577,7 +577,7 @@ function HeroAudioPlayer({ isMobile }) {
           type="button"
           onClick={togglePlay}
           className="flex h-10 w-10 items-center justify-center rounded-2xl border border-white/10 bg-white/5 text-white transition hover:bg-white/10"
-          aria-label={isPlaying ? "إيقاف مؤقت" : "تشغيل"}
+          aria-label={isPlaying ? "স্থগিত কৰক" : "চালু কৰক"}
         >
           {isPlaying ? (
             <Pause className="h-4 w-4" style={{ color: ACCENT }} />
@@ -590,7 +590,7 @@ function HeroAudioPlayer({ isMobile }) {
           type="button"
           onClick={() => seekBy(-10)}
           className="flex h-10 w-10 items-center justify-center rounded-2xl border border-white/10 bg-white/5 text-white transition hover:bg-white/10"
-          aria-label="تأخير"
+          aria-label="পিছলৈ নিন"
         >
           <SkipBack className="h-4 w-4" style={{ color: ACCENT }} />
         </button>
@@ -599,7 +599,7 @@ function HeroAudioPlayer({ isMobile }) {
           type="button"
           onClick={replay}
           className="flex h-10 w-10 items-center justify-center rounded-2xl border border-white/10 bg-white/5 text-white transition hover:bg-white/10"
-          aria-label="إعادة التشغيل"
+          aria-label="পুনৰ চালু কৰক"
         >
           <RotateCcw className="h-4 w-4" style={{ color: ACCENT }} />
         </button>
@@ -608,7 +608,7 @@ function HeroAudioPlayer({ isMobile }) {
           type="button"
           onClick={() => seekBy(10)}
           className="flex h-10 w-10 items-center justify-center rounded-2xl border border-white/10 bg-white/5 text-white transition hover:bg-white/10"
-          aria-label="تقديم"
+          aria-label="আগলৈ নিন"
         >
           <SkipForward className="h-4 w-4" style={{ color: ACCENT }} />
         </button>
@@ -617,7 +617,7 @@ function HeroAudioPlayer({ isMobile }) {
           type="button"
           onClick={toggleMute}
           className="flex h-10 w-10 items-center justify-center rounded-2xl border border-white/10 bg-white/5 text-white transition hover:bg-white/10"
-          aria-label="الصوت"
+          aria-label="শব্দ"
         >
           <Volume2
             className={`h-4 w-4 ${muted ? "opacity-50" : ""}`}
@@ -891,7 +891,7 @@ function ProtectedHlsVideoCard({
             type="button"
             onClick={togglePlay}
             className="absolute inset-0 flex items-center justify-center bg-black/15 transition hover:bg-black/10"
-            aria-label="تشغيل الفيديو"
+            aria-label="ভিডিঅ’ চালু কৰক"
           >
             <span className="flex h-16 w-16 items-center justify-center rounded-full border border-white/20 bg-white/10 backdrop-blur-md shadow-[0_0_22px_rgba(16,185,129,0.16)] sm:h-18 sm:w-18">
               <Play className="mr-1 h-7 w-7 text-white" />
@@ -900,7 +900,7 @@ function ProtectedHlsVideoCard({
         )}
 
         <div className="pointer-events-none absolute left-3 top-3 rounded-full border border-white/10 bg-black/35 px-3 py-1 text-[11px] text-white/80 backdrop-blur-md">
-          {isReady ? "الصورة ظاهرة قبل التشغيل" : "جارِ تجهيز المعاينة"}
+          {isReady ? "চালু কৰাৰ আগতেই দৃশ্য দেখা যাচ্ছে" : "পূৰ্বদৰ্শন প্ৰস্তুত কৰা হৈছে"}
         </div>
       </div>
 
@@ -910,7 +910,7 @@ function ProtectedHlsVideoCard({
             type="button"
             onClick={toggleMute}
             className="flex h-10 w-10 items-center justify-center rounded-2xl border border-white/10 bg-white/5 text-white transition hover:bg-white/10"
-            aria-label="كتم الصوت أو تشغيله"
+            aria-label="শব্দ বন্ধ বা চালু কৰক"
           >
             <Volume2
               className={`h-4 w-4 ${muted ? "opacity-50" : ""}`}
@@ -922,7 +922,7 @@ function ProtectedHlsVideoCard({
             type="button"
             onClick={replayVideo}
             className="flex h-10 w-10 items-center justify-center rounded-2xl border border-white/10 bg-white/5 text-white transition hover:bg-white/10"
-            aria-label="إعادة التشغيل"
+            aria-label="পুনৰ চালু কৰক"
           >
             <RotateCcw className="h-4 w-4" style={{ color: ACCENT }} />
           </button>
@@ -931,7 +931,7 @@ function ProtectedHlsVideoCard({
             type="button"
             onClick={togglePlay}
             className="flex h-10 w-10 items-center justify-center rounded-2xl border border-white/10 bg-white/5 text-white transition hover:bg-white/10"
-            aria-label={isPlaying ? "إيقاف مؤقت" : "تشغيل"}
+            aria-label={isPlaying ? "স্থগিত কৰক" : "চালু কৰক"}
           >
             {isPlaying ? (
               <Pause className="h-4 w-4" style={{ color: ACCENT }} />
@@ -1012,7 +1012,7 @@ export default function QuranTranslationLandingPage() {
   return (
     <LazyMotion features={domAnimation}>
       <div
-        dir="rtl"
+        dir="ltr"
         className="relative min-h-screen overflow-hidden bg-transparent text-white"
       >
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_top,rgba(16,185,129,0.18),transparent_30%),radial-gradient(circle_at_80%_20%,rgba(250,204,21,0.14),transparent_22%),radial-gradient(circle_at_20%_80%,rgba(34,197,94,0.14),transparent_24%),linear-gradient(180deg,#020617_0%,#04120f_40%,#031b17_100%)]" />
@@ -1041,14 +1041,14 @@ export default function QuranTranslationLandingPage() {
                 <div className="flex h-12 w-12 shrink-0 items-center justify-center overflow-hidden rounded-full border border-yellow-100/20 bg-white/10 shadow-[0_0_16px_rgba(16,185,129,0.16)] sm:h-16 sm:w-16">
                   <img
                     src={sanaLogo}
-                    alt="شعار قنوات سنا القرآنية"
+                    alt="সানা কোৰআনী চেনেলসমূহৰ ল’গ’"
                     className="h-full w-full object-cover"
                     loading="eager"
                     decoding="async"
                   />
                 </div>
                 <div className="truncate text-sm font-bold tracking-wide sm:text-xl">
-                  قنوات سنا القرآنية
+                  সানা কোৰআনী চেনেলসমূহ
                 </div>
               </div>
 
@@ -1102,7 +1102,7 @@ export default function QuranTranslationLandingPage() {
                 style={{ color: ACCENT }}
               >
                 <Stars className="h-4 w-4" style={{ color: ACCENT }} />
-                <span>سنا...بلاغ للعالمين</span>
+                <span>সানা... বিশ্ববাসীৰ বাবে এক বাৰ্তা</span>
               </motion.div>
 
               <motion.h1
@@ -1113,7 +1113,7 @@ export default function QuranTranslationLandingPage() {
                 className="text-3xl font-black leading-[1.25] sm:text-5xl lg:text-7xl"
               >
                 <span className="block bg-gradient-to-l from-[#F3E7B3] via-emerald-100 to-yellow-100 bg-clip-text text-transparent">
-                  قنوات سنا القرآنية
+                  সানা কোৰআনী চেনেলসমূহ
                 </span>
               </motion.h1>
 
@@ -1124,7 +1124,7 @@ export default function QuranTranslationLandingPage() {
                 variants={fadeUp}
                 className="mt-5 max-w-2xl text-base leading-7 text-white/75 sm:text-lg sm:leading-8 lg:text-xl"
               >
-                قنوات صوتية مرئية لترجمات معاني القرآن الكريم لجميع اللغات العالمية - وقف لله تعالى.
+                বিশ্বৰ সকলো ভাষাত কোৰআনুল কৰীমৰ অৰ্থৰ অনুবাদ উপস্থাপন কৰা শ্ৰব্য-দৃশ্যমান চেনেলসমূহ — আল্লাহ তাআলাৰ বাবে এটা ৱাক্‌ফ।
               </motion.p>
 
               <motion.div
@@ -1147,7 +1147,7 @@ export default function QuranTranslationLandingPage() {
                     className="h-5 w-5 transition group-hover:rotate-12"
                     style={{ color: ACCENT }}
                   />
-                  اكتشف المنصة
+                  প্লেটফৰ্মটো আৱিষ্কাৰ কৰক
                 </a>
 
                 <a
@@ -1157,7 +1157,7 @@ export default function QuranTranslationLandingPage() {
                   className="inline-flex items-center justify-center gap-3 rounded-2xl border border-white/15 bg-white/10 px-6 py-3.5 text-sm font-semibold text-white backdrop-blur-md transition hover:bg-white/15 sm:px-7 sm:py-4 sm:text-base"
                 >
                   <Play className="h-5 w-5" />
-                  زوروا قناتنا
+                  আমাৰ চেনেললৈ যাওক
                 </a>
               </motion.div>
 
@@ -1206,20 +1206,20 @@ export default function QuranTranslationLandingPage() {
                 <div className="rounded-[1.6rem] border border-white/10 bg-gradient-to-br from-white/10 to-white/5 p-4 sm:p-6">
                   <div className="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
                     <div>
-                      <p className="text-xs text-white/60 sm:text-sm">اللغة الحالية</p>
+                      <p className="text-xs text-white/60 sm:text-sm">বৰ্তমান ভাষা</p>
                       <h3 className="mt-1 text-xl font-bold sm:text-2xl">
-                        القرآن باللغة العربية
+                        আৰবী ভাষাত কোৰআন
                       </h3>
                     </div>
                     <div className="w-fit rounded-2xl border border-emerald-300/20 bg-emerald-400/15 px-4 py-2 text-xs text-emerald-100 sm:text-sm">
-                      بث مباشر
+                      লাইভ প্ৰচাৰ
                     </div>
                   </div>
 
                   <div className="mt-6 rounded-[1.4rem] border border-white/10 bg-[#0b1d19]/70 p-4 sm:mt-8 sm:p-6">
                     <div className="mb-4 flex items-start gap-3 text-sm text-white/80 sm:items-center sm:text-base">
                       <Headphones className="mt-0.5 h-5 w-5 shrink-0 text-emerald-200 sm:mt-0" />
-                      <span>استمع إلى التلاوة مع عرض بصري لمعاني القرآن الكريم</span>
+                      <span>কোৰআনুল কৰীমৰ অৰ্থৰ দৃশ্যমান উপস্থাপনাসহ তিলাৱাত শুনক</span>
                     </div>
 
                     {!isMobile && (
@@ -1289,7 +1289,7 @@ export default function QuranTranslationLandingPage() {
               variants={fadeUp}
               className="mb-8 text-center"
             >
-              <LargeSectionBadge icon={BookOpen} text="هوية قرآنية عالمية" />
+              <LargeSectionBadge icon={BookOpen} text="বিশ্বজনীন কোৰআনী পৰিচয়" />
             </motion.div>
 
             <div className="space-y-6">
@@ -1322,7 +1322,7 @@ export default function QuranTranslationLandingPage() {
 
           <section className="py-8 lg:py-12">
             <div className="mb-6 text-center">
-              <LargeSectionBadge icon={Building2} text="التنفيذ والإشراف" />
+              <LargeSectionBadge icon={Building2} text="কাৰ্যকৰী ৰূপায়ণ আৰু তত্বাৱধান" />
             </div>
 
             <motion.div
@@ -1341,23 +1341,22 @@ export default function QuranTranslationLandingPage() {
                   <div className="rounded-[1.8rem] border border-white/10 bg-[#081512]/45 p-4 sm:p-6">
                     <div className="h-full rounded-2xl border border-white/10 bg-white/5 p-4 sm:p-5">
                       <h2 className="text-2xl font-black sm:text-3xl lg:text-4xl">
-                        شراكة تنفيذية موثوقة
+                        বিশ্বাসযোগ্য কাৰ্যকৰী অংশীদাৰিত্ব
                       </h2>
                       <p className="mt-5 text-base leading-8 text-white/75 sm:text-lg">
-                        يُنفّذ مشروع{" "}
-                        <span className="font-bold text-white">قنوات سنا القرآنية</span>{" "}
-                        من قبل{" "}
+                        <span className="font-bold text-white">সানা কোৰআনী চেনেলসমূহ</span>{" "}
+                        প্ৰকল্পটো{" "}
                         <span className="font-bold" style={{ color: ACCENT }}>
-                          الشركة السعودية الأردنية للبث الفضائي (جاسكو)
+                          চৌদি-জৰ্ডানীয় উপগ্ৰহ প্ৰচাৰ কোম্পানী (Jasco)
                         </span>{" "}
-                        – عمّان، الأردن، بخبرة رائدة في مجال الإنتاج والبث الإعلامي.
+                        দ্বাৰা — আম্মান, জৰ্ডানত — ৰূপায়ণ কৰা হৈছে, যি মিডিয়া উৎপাদন আৰু প্ৰচাৰৰ ক্ষেত্ৰত অগ্ৰণী অভিজ্ঞতাসম্পন্ন।
                       </p>
                     </div>
                   </div>
 
                   <div className="rounded-[1.8rem] border border-white/10 bg-[#081512]/70 p-4 sm:p-6">
                     <div className="flex h-full flex-col justify-center rounded-2xl border border-white/10 bg-white/5 p-4 sm:p-5">
-                      <div className="text-sm text-white/60">الموقع الرسمي</div>
+                      <div className="text-sm text-white/60">আনুষ্ঠানিক ৱেবছাইট</div>
                       <div className="mt-2 text-xl font-bold sm:text-2xl">Jasco Media City</div>
                       <a
                         href="https://jascomediacity.net/"
@@ -1365,7 +1364,7 @@ export default function QuranTranslationLandingPage() {
                         rel="noreferrer"
                         className="mt-5 inline-flex w-fit items-center gap-2 rounded-2xl border border-emerald-200/20 bg-emerald-400/10 px-5 py-3 text-sm text-emerald-100 transition hover:bg-emerald-400/20 sm:text-base"
                       >
-                        قم بزيارة موقع Jasco
+                        Jasco ৰ ৱেবছাইট চাওক
                         <ExternalLink className="h-4 w-4" />
                       </a>
                     </div>
@@ -1383,13 +1382,12 @@ export default function QuranTranslationLandingPage() {
               variants={fadeUp}
               className="mb-10 text-center"
             >
-              {sectionBadge(Sparkles, "مميزات المنصة")}
+              {sectionBadge(Sparkles, "প্লেটফৰ্মৰ বৈশিষ্ট্যসমূহ")}
               <h2 className="mt-5 text-2xl font-black sm:text-4xl lg:text-5xl">
-                سنا... بلاغ للعالمين
+                সানা... বিশ্ববাসীৰ বাবে এক বাৰ্তা
               </h2>
               <p className="mx-auto mt-4 max-w-3xl text-base leading-8 text-white/70 sm:text-lg">
-                منصة قرآنية تستخدم أحدث الوسائل لإيصال معاني القرآن الكريم إلى
-                العالمين، بأسلوب يجمع بين التأصيل الشرعي والتقنيات الحديثة.
+                এটা কোৰআনী প্লেটফৰ্ম, যিয়ে কোৰআনুল কৰীমৰ অৰ্থ বিশ্ববাসীৰ ওচৰলৈ পৌঁছাবলৈ আধুনিকতম মাধ্যম ব্যৱহাৰ কৰে, আৰু শৰঈ ভিত্তি ও আধুনিক প্ৰযুক্তিৰ সমন্বয় ঘটায়।
               </p>
             </motion.div>
 
@@ -1418,8 +1416,8 @@ export default function QuranTranslationLandingPage() {
               variants={fadeUp}
               className="mb-10 text-center"
             >
-              {sectionBadge(Send, "وسائل النشر والوصول")}
-              <h2 className="mt-5 text-2xl font-black sm:text-4xl lg:text-5xl">قنوات حضور متعددة</h2>
+              {sectionBadge(Send, "প্ৰচাৰ আৰু পৌঁছৰ মাধ্যমসমূহ")}
+              <h2 className="mt-5 text-2xl font-black sm:text-4xl lg:text-5xl">বহুমুখী উপস্থিতিৰ চেনেলসমূহ</h2>
             </motion.div>
 
             <div className="grid gap-5 lg:grid-cols-3">
@@ -1447,11 +1445,10 @@ export default function QuranTranslationLandingPage() {
               variants={fadeUp}
               className="mb-10 text-center"
             >
-              {sectionBadge(Crown, "أعمالنا")}
-              <h2 className="mt-5 text-2xl font-black sm:text-4xl lg:text-5xl">نماذج من أعمالنا</h2>
+              {sectionBadge(Crown, "আমাৰ কাম")}
+              <h2 className="mt-5 text-2xl font-black sm:text-4xl lg:text-5xl">আমাৰ কামৰ কিছু নমুনা</h2>
               <p className="mx-auto mt-4 max-w-3xl text-base leading-8 text-white/70 sm:text-lg">
-                تلاوات قرآنية عطرة وترجمة معاني آيات القرآن الكريم لمختلف لغات
-                العالم - سنا... بلاغ للعالمين.
+                সুগন্ধিময় কোৰআনী তিলাৱাত আৰু বিশ্বৰ বিভিন্ন ভাষাত কোৰআনৰ আয়াতসমূহৰ অৰ্থৰ অনুবাদ — সানা... বিশ্ববাসীৰ বাবে এক বাৰ্তা।
               </p>
             </motion.div>
 
@@ -1479,13 +1476,12 @@ export default function QuranTranslationLandingPage() {
               variants={fadeUp}
               className="mb-10 text-center"
             >
-              {sectionBadge(Globe, "أثر المشروع")}
+              {sectionBadge(Globe, "প্ৰকল্পৰ প্ৰভাৱ")}
               <h2 className="mt-5 text-2xl font-black sm:text-4xl lg:text-5xl">
-                أثر المشروع وانتشاره حول العالم
+                প্ৰকল্পটোৰ প্ৰভাৱ আৰু বিশ্বব্যাপী বিস্তাৰ
               </h2>
               <p className="mx-auto mt-4 max-w-3xl text-base leading-8 text-white/70 sm:text-lg">
-                رسالة قرآنية عالمية وفّرت ترجمات موثوقة، وقدّمت تجربة مؤثرة،
-                وساهمت في وصول معاني القرآن الكريم إلى بيوت حول العالم.
+                এটা বৈশ্বিক কোৰআনী বাৰ্তা, যিয়ে বিশ্বাসযোগ্য অনুবাদ প্ৰদান কৰিছে, প্ৰভাৱশালী অভিজ্ঞতা দিছে, আৰু কোৰআনুল কৰীমৰ অৰ্থ বিশ্বৰ ঘৰেবাড়িলৈ পৌঁছোৱাত সহায় কৰিছে।
               </p>
             </motion.div>
 
@@ -1514,11 +1510,10 @@ export default function QuranTranslationLandingPage() {
               variants={fadeUp}
               className="mb-10 text-center"
             >
-              {sectionBadge(Users, "شركاء النجاح")}
-              <h2 className="mt-5 text-2xl font-black sm:text-4xl lg:text-5xl">نجاحٌ صنعه التعاون</h2>
+              {sectionBadge(Users, "সফলতাৰ অংশীদাৰসকল")}
+              <h2 className="mt-5 text-2xl font-black sm:text-4xl lg:text-5xl">সহযোগিতাই গঢ়া সফলতা</h2>
               <p className="mx-auto mt-4 max-w-3xl text-base leading-8 text-white/70 sm:text-lg">
-                حقق المشروع نجاحه بفضل تعاون نخبة من الجهات المتميزة، من بينها
-                الجهات الشرعية والإعلامية والإنتاجية والمتطوعون.
+                প্ৰকল্পটোৱে বহু উৎকৃষ্ট সংস্থাৰ সহযোগিতাৰ ফলত সফলতা লাভ কৰিছে, যাৰ ভিতৰত আছে শৰঈ, মিডিয়া, উৎপাদন সংস্থা আৰু স্বেচ্ছাসেৱকসকল।
               </p>
             </motion.div>
 
@@ -1552,12 +1547,11 @@ export default function QuranTranslationLandingPage() {
                   style={{ color: ACCENT }}
                 >
                   <Sparkles className="h-5 w-5 shrink-0" style={{ color: ACCENT }} />
-                  <span>تواصل معنا</span>
+                  <span>আমাৰ সৈতে যোগাযোগ কৰক</span>
                 </div>
 
                 <p className="mx-auto mt-5 max-w-4xl text-base leading-8 text-white/75 sm:text-lg">
-                  سنا رسالة دعوية عالمية، ويسعدنا التواصل معكم واستقبال
-                  استفساراتكم ومقترحاتكم وشراكاتكم في أي وقت بأسلوب واضح ومباشر.
+                  সানা এটা বৈশ্বিক দাৱাতী বাৰ্তা, আৰু আমি আনন্দেৰে আপোনালোকৰ সৈতে যোগাযোগ কৰোঁ, আপোনালোকৰ প্ৰশ্ন, পৰামৰ্শ আৰু অংশীদাৰিত্ব যিকোনো সময়ত স্পষ্ট আৰু সোজাসাপ্টা ভঙ্গীত গ্ৰহণ কৰোঁ।
                 </p>
               </div>
 
@@ -1566,17 +1560,17 @@ export default function QuranTranslationLandingPage() {
               >
                 <div className="rounded-[2rem] border border-white/10 bg-[#081512]/70 p-4 sm:p-6">
                   <div className="rounded-[1.5rem] border border-white/10 bg-white/5 p-4 sm:p-5">
-                    <div className="mb-4 text-xl font-bold sm:text-2xl">اتصل بنا</div>
+                    <div className="mb-4 text-xl font-bold sm:text-2xl">আমাক যোগাযোগ কৰক</div>
                     <div className="space-y-3 text-white/75">
                       <div className="rounded-2xl bg-white/5 px-4 py-3 text-sm sm:text-base">
-                        فريقنا سيكون سعيدًا بمساعدتكم والرد عليكم في أقرب وقت.
+                        আমাৰ টীমে আপোনালোকক সহায় কৰিবলৈ আৰু অতি সোনকালে উত্তৰ দিবলৈ আনন্দ পাব।
                       </div>
                       <a
                         href="mailto:snachannel159@gmail.com"
                         className="flex items-center justify-center gap-3 rounded-2xl border border-emerald-200/20 bg-emerald-400/10 px-4 py-3 text-center text-sm font-semibold text-emerald-100 transition hover:bg-emerald-400/20 sm:text-base"
                       >
                         <Mail className="h-4 w-4" style={{ color: ACCENT }} />
-                        إرسال
+                        পঠিয়াওক
                       </a>
                     </div>
                   </div>
@@ -1594,7 +1588,7 @@ export default function QuranTranslationLandingPage() {
                   <div className="mx-auto flex h-20 w-20 items-center justify-center rounded-full border border-white/15 bg-white/10 shadow-[0_0_18px_rgba(255,255,255,0.06)] backdrop-blur-md sm:h-24 sm:w-24">
                     <img
                       src={sanaLogo}
-                      alt="شعار سنا"
+                      alt="সানাৰ ল’গ’"
                       className="h-14 w-14 object-contain sm:h-16 sm:w-16"
                       loading="lazy"
                       decoding="async"
@@ -1603,18 +1597,16 @@ export default function QuranTranslationLandingPage() {
 
                   <div className="mt-4">
                     <span className="inline-flex rounded-full border border-white/10 bg-white/10 px-4 py-2 text-xs text-white/90 sm:px-5 sm:text-sm">
-                      قنوات سنا القرآنية
+                      সানা কোৰআনী চেনেলসমূহ
                     </span>
                   </div>
 
                   <div className="mt-4 text-2xl font-black sm:text-3xl" style={{ color: ACCENT }}>
-                    سنا... بلاغ للعالمين
+                    সানা... বিশ্ববাসীৰ বাবে এক বাৰ্তা
                   </div>
 
                   <p className="mx-auto mt-4 max-w-[30rem] rounded-[1.4rem] border border-white/10 bg-[rgba(38,67,57,0.55)] px-4 py-4 text-sm leading-7 text-white/78 sm:px-5 sm:text-base sm:leading-8">
-                    قنوات صوتية مرئية لترجمات معاني القرآن الكريم لجميع اللغات
-                    العالمية، في مشروع وقفي يجمع بين جمال العرض ودقة المعنى وروح
-                    الرسالة.
+                    কোৰআনুল কৰীমৰ অৰ্থৰ অনুবাদ উপস্থাপন কৰা শ্ৰব্য-দৃশ্যমান চেনেলসমূহ, এটা ৱাক্‌ফভিত্তিক প্ৰকল্প যিয়ে সৌন্দৰ্য, নিখুঁত অৰ্থ আৰু বাৰ্তাৰ আত্মাক একত্ৰ কৰে।
                   </p>
                 </div>
 
@@ -1623,7 +1615,7 @@ export default function QuranTranslationLandingPage() {
                     <div className="flex h-14 w-14 items-center justify-center rounded-2xl border border-white/10 bg-white/5 shadow-[0_8px_18px_rgba(0,0,0,0.14)]">
                       <MessageCircle className="h-6 w-6" style={{ color: ACCENT }} />
                     </div>
-                    <span>تفاصيلنا</span>
+                    <span>আমাৰ তথ্যসমূহ</span>
                   </div>
 
                   <div className="w-full space-y-4 text-white/72">
@@ -1637,7 +1629,7 @@ export default function QuranTranslationLandingPage() {
 
                     <div className="flex items-center justify-center gap-3 rounded-2xl border border-white/10 bg-[#081512]/50 px-4 py-3 text-sm sm:text-base">
                       <MapPin className="h-4 w-4 shrink-0" style={{ color: ACCENT }} />
-                      عمّان - الأردن
+                      আম্মান - জৰ্ডান
                     </div>
                   </div>
 
@@ -1649,11 +1641,11 @@ export default function QuranTranslationLandingPage() {
                       className="flex items-center justify-center gap-2 rounded-xl border border-white/10 bg-white/5 py-3 text-sm font-semibold text-white transition hover:scale-[1.01] hover:bg-white/10"
                     >
                       <Globe className="h-4 w-4" style={{ color: ACCENT }} />
-                      تابعنا على فيسبوك
+                      ফেচবুকত আমাক অনুসৰণ কৰক
                     </a>
 
                     <p className="mt-4 text-center text-sm leading-6 text-white/70">
-                      ابدأ رحلتك القرآنية الآن
+                      এতিয়াই আপোনাৰ কোৰআনী যাত্ৰা আৰম্ভ কৰক
                     </p>
                   </div>
                 </div>
@@ -1663,13 +1655,12 @@ export default function QuranTranslationLandingPage() {
                     <div className="flex h-14 w-14 items-center justify-center rounded-2xl border border-white/10 bg-white/5 shadow-[0_8px_18px_rgba(0,0,0,0.14)]">
                       <Link2 className="h-6 w-6" style={{ color: ACCENT }} />
                     </div>
-                    <span>روابط تطبيقنا</span>
+                    <span>আমাৰ এপ্লিকেচনৰ লিংকসমূহ</span>
                   </div>
 
                   <div className="w-full rounded-[1.4rem] border border-white/10 bg-[#081512]/45 p-4">
                     <p className="mb-4 text-sm leading-7 text-white/65">
-                      حمّل التطبيق وابدأ متابعة المحتوى القرآني بسهولة عبر المنصات
-                      الرسمية.
+                      এপ্লিকেচন ডাউনলোড কৰক আৰু আনুষ্ঠানিক প্লেটফৰ্মসমূহৰ জৰিয়তে সহজে কোৰআনী বিষয়বস্তু অনুসৰণ আৰম্ভ কৰক।
                     </p>
 
                     <div className="grid gap-3 md:grid-cols-2">
@@ -1708,8 +1699,8 @@ export default function QuranTranslationLandingPage() {
 
                     <div className="mt-5 rounded-[1.4rem] border border-white/10 bg-[#0b1d19]/60 p-4">
                       <div className="flex flex-wrap items-center justify-center gap-4 text-xs text-white/65">
-                        <span>⭐ 4.9 تقييم</span>
-                        <span>🌍 100+ دولة</span>
+                        <span>⭐ 4.9 মূল্যায়ন</span>
+                        <span>🌍 100+ দেশ</span>
                       </div>
 
                       <a
@@ -1719,7 +1710,7 @@ export default function QuranTranslationLandingPage() {
                         className="mt-4 flex w-full items-center justify-center gap-2 rounded-xl border border-emerald-200/20 bg-emerald-400/10 py-3 text-sm font-bold text-emerald-100 transition hover:scale-[1.01] hover:bg-emerald-400/20"
                       >
                         <Sparkles className="h-4 w-4" />
-                        ابدأ الآن
+                        এতিয়াই আৰম্ভ কৰক
                       </a>
                     </div>
                   </div>
@@ -1727,7 +1718,7 @@ export default function QuranTranslationLandingPage() {
               </div>
 
               <div className="mt-8 border-t border-white/10 pt-5 text-center text-xs text-white/55 sm:text-sm">
-                جميع الحقوق محفوظة © قنوات سنا القرآنية.
+                সকলো অধিকাৰ সংৰক্ষিত © সানা কোৰআনী চেনেলসমূহ।
               </div>
             </div>
           </footer>
