@@ -1207,7 +1207,7 @@ export default function QuranTranslationLandingPage() {
                     <div>
                       <p className="text-xs text-white/60 sm:text-sm">বৰ্তমান ভাষা</p>
                       <h3 className="mt-1 text-xl font-bold sm:text-2xl">
-                        আৰবী ভাষাত কোৰআন
+                        সনা চেনেলসমূহ
                       </h3>
                     </div>
                     <div className="w-fit rounded-2xl border border-[rgba(246,211,138,0.28)] bg-[rgba(246,211,138,0.14)] px-4 py-2 text-xs text-[#FFF1CC] sm:text-sm">
